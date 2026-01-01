@@ -1,4 +1,4 @@
-import java.io.;
+import java.io.*;
 import java.lang.*;
 public class strext
   {
@@ -16,7 +16,7 @@ public class strext
       s1.getChars(st,end,buf,0);
       System.out.println(buf);
       System.out.println("String To Array Extraction");
-      char c="Hello".toCharArray();
+      char[] c="Hello".toCharArray();
       System.out.println(c);
     }
   }
